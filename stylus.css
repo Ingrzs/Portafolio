@@ -1,0 +1,106 @@
+body{
+    margin: 0%;
+    padding: 0%; 
+    background-color: #F5F5F5;  
+}
+.div_header{
+display:flex;
+font-family: 'Franklin Gothic Medium';
+font-style: normal;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+}
+
+.logo{
+text-align: center;
+align-self: center;
+border: 1px solid pink;
+width: 30%;
+}
+
+.nav{
+border: 1px solid blue;
+width: 70%;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:  #464646;
+}
+
+.hobbies{
+    display: flex;
+}
+
+.hobbies_texto{
+width: 50%;
+text-align: center;
+align-self: center;
+}
+.hobbies_img{
+width: 50%;
+text-align: center;
+align-self: center;
+}
+
+.imgphoto{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.hobbies_texto ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.hobbies_texto ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
+
+.divsobremi{
+    background-color: #EAF2FD;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.contenidosobremi{
+    height: 150px;
+    border: 1px solid black;
+    display: inline-block;
+   align-self: center;
+   position: relative;
+   left:5%;
+}
+
+
+
+.contenidoskill{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    position: relative;
+    left:2%;
+}
+.skills{
+width: 100px;
+height: 100px;
+background-color: white;
+}
