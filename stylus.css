@@ -1,15 +1,15 @@
 body{
     margin: 0%;
     padding: 0%; 
-    background-color: #F5F5F5;  
+    background-color: #F5F5F5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;  
 }
 .div_header{
 display:flex;
-font-family: 'Franklin Gothic Medium';
-font-style: normal;
-font-size: 16px;
-font-weight: 500;
-line-height: 19px;
 }
 
 .logo{
@@ -46,9 +46,16 @@ a{
 
 .hobbies_texto{
 width: 50%;
-text-align: center;
 align-self: center;
 }
+
+.contenido_hobbies_texto{
+ position: relative;
+ left:20%; 
+ display: flex;
+ flex-wrap: wrap ;  
+}
+
 .hobbies_img{
 width: 50%;
 text-align: center;
@@ -61,8 +68,7 @@ align-self: center;
     height: 300px;
 }
 .hobbies_texto ul {
-    list-style-type: none;
-    text-align: center;
+    list-style-type: none;  
 }
 
 .hobbies_texto ul li{
@@ -80,27 +86,35 @@ align-self: center;
     
 }
 .contenidosobremi{
+    width: 500px;
     height: 150px;
     border: 1px solid black;
     display: inline-block;
    align-self: center;
+   text-align: justify;
    position: relative;
-   left:5%;
+   left:12%;
 }
 
-
+.divskill{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
 
 .contenidoskill{
-    width: 95%;
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border: 1px solid black;
     position: relative;
-    left:2%;
+    left:2%; 
 }
 .skills{
-width: 100px;
-height: 100px;
+width: 200px;
+height: 180px;
 background-color: white;
+margin-left: 20px;
+margin-bottom: 15px;
 }
