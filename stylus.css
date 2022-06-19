@@ -135,6 +135,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #EAF2FD;;
 }
 
 .diveducaciones{
@@ -144,11 +145,47 @@ text-align: center;
     width: 70%;
 }
 
-.alura,.launchx{
-}
+
 img{
     width: 250px;
     height: 250px;
 }
 
+.divexperiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencia1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+
+}
+.experiencia1 .juegoahorcado img{
+width: 600px;
+height: 400px;
+}
+
+.textojuego{
+    margin-left: 2%;
+    align-self: center;
+}
+
+.btnrepo{
+    color: #2A7AE4;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #2A7AE4;
+}
+
+.btndemo{
+  background-color: #2A7AE4;
+  color: #FFFFFF;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #2A7AE4;  
+}
 
