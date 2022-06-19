@@ -131,3 +131,24 @@ text-align: center;
 }
 
 
+.diveducacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diveducaciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.alura,.launchx{
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+
+
