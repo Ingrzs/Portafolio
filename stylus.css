@@ -192,35 +192,53 @@ height: 400px;
 .divform{
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid blue;
     justify-content: center;
- 
-    
+    background-color: #EAF2FD;
 }
 
-.divtel, .divcontato{
-    height: 400px;
+.divtel, .divcontacto{ 
+    border: 1px solid black;
 }
+
 .divtel img{
-    width: 400px;
-    height: 398px;
+    width: 100%;
+    height: 100%;    
 }
 
-
-.btnprop{
-display: block;
+.divcontacto{
+    margin-left: 1%;
 }
-
 
 input{
     display: block;
-    width: 60%;
-    height: 30px;
-    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+input:hover{
+    border: 1px solid #2A7AE4;
+}
+textarea:hover{
+    border: 1px solid #2A7AE4; 
 }
 textarea{
     display: block;
-    width: 60%;
-    height: 60px;
-    margin-top: 10px;
+    width: 80%;
+    height: 110px;
+    margin-top: 20px;
+    outline: none;
 }
 
+.btnprop{
+    display: block;
+    margin-top: 20px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #2A7AE4;  
+    }
+    
