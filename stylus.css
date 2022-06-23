@@ -247,5 +247,17 @@ textarea:hover{
     width: 100px;
     height: 40px;
     border: 1px solid #2A7AE4;  
-    }
+ }
     
+.div_footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div_footer_texto{
+    text-align: center;
+}
+.div_footer .p_footer{
+    position: relative;
+    bottom: 20px;
+}
