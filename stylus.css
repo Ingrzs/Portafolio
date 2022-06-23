@@ -12,24 +12,24 @@ body{
 display:flex;
 }
 
-.logo{
+.div_header_logo{
 text-align: center;
 align-self: center;
 border: 1px solid pink;
 width: 30%;
 }
 
-.nav{
+.div_header_nav{
 border: 1px solid blue;
 width: 70%;
 }
 
-.nav ul {
+.div_header_nav ul {
     list-style-type: none;
     text-align: center;
 }
 
-.nav ul li{
+.div_header_nav ul li{
     display: inline-block;
     position: relative;
     margin-left: 20px;
@@ -40,15 +40,24 @@ a{
     color:  #464646;
 }
 
-.hobbies{
+.div_presentacion{
     display: flex;
 }
 
-.hobbies_texto{
+.div_presentacion_texto{
 width: 50%;
 align-self: center;
 }
 
+.div_presentacion_texto ul {
+    list-style-type: none;  
+}
+
+.div_presentacion_texto ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+}
 .contenido_hobbies_texto{
  position: relative;
  left:20%; 
@@ -56,7 +65,7 @@ align-self: center;
  flex-wrap: wrap ;  
 }
 
-.hobbies_img{
+.div_presentacion_img{
 width: 50%;
 text-align: center;
 align-self: center;
@@ -67,17 +76,9 @@ align-self: center;
     width: 300px;
     height: 300px;
 }
-.hobbies_texto ul {
-    list-style-type: none;  
-}
 
-.hobbies_texto ul li{
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
 
-.divsobremi{
+.div_sobremi{
     background-color: #EAF2FD;
     height: 300px;
     display: flex;
@@ -85,7 +86,7 @@ align-self: center;
     
     
 }
-.contenidosobremi{
+.div_sobremi_texto{
     width: 500px;
     height: 150px;
     border: 1px solid black;
@@ -96,13 +97,13 @@ align-self: center;
    left:12%;
 }
 
-.divskillhobbies{
+.div_skillyhobbies{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-.contenidoskill,.contenidohobbies{
+.div_skills,.div_hobbies{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +112,7 @@ align-items: center;
     position: relative;
     left:2%; 
 }
-.skills,.chobbies{
+.skills,.hobbies{
 width: 200px;
 height: 180px;
 background-color: white;
@@ -131,40 +132,39 @@ text-align: center;
 }
 
 
-.diveducacion{
+.div_educacion{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #EAF2FD;;
 }
 
-.diveducaciones{
+.div_educacion_escuela{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 70%;
 }
 
-
-img{
+.div_educacion_escuela img{
     width: 250px;
     height: 250px;
 }
 
-.divexperiencia{
+.div_experiencias{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.experiencia1{
+.div_experiencia_uno{
     display: flex;
     flex-wrap: wrap;
     width: 70%;
     justify-content: center;
 
 }
-.experiencia1 .juegoahorcado img{
+.div_experiencia_uno .div_experiencia_uno_juegoahorcado img{
 width: 600px;
 height: 400px;
 }
@@ -223,6 +223,11 @@ input:hover{
 }
 textarea:hover{
     border: 1px solid #2A7AE4; 
+}
+
+input::placeholder{
+    position: relative;
+    bottom: 10px;
 }
 textarea{
     display: block;
