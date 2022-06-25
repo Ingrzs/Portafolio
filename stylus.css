@@ -87,10 +87,11 @@ align-self: center;
     
 }
 .div_sobremi_texto{
-    width: 500px;
-    height: 150px;
-    border: 1px solid black;
-    display: inline-block;
+   width: 500px;
+   height: 150px;
+   border: 1px solid black;
+   display: inline-flex;
+   flex-wrap: wrap;
    align-self: center;
    text-align: justify;
    position: relative;
@@ -165,8 +166,8 @@ text-align: center;
 
 }
 .div_experiencia_uno .div_experiencia_uno_img img{
-width: 600px;
-height: 400px;
+width: 90%;
+height: 100%;
 }
 
 .div_experiencia_uno_texto{
@@ -195,10 +196,12 @@ height: 400px;
     border: 1px solid blue;
     justify-content: center;
     background-color: #EAF2FD;
+    
 }
 
 .div_formulario_img, .div_formulario_contacto{ 
     border: 1px solid black;
+    
 }
 
 .div_formulario_img img{
@@ -261,3 +264,19 @@ textarea:hover{
     position: relative;
     bottom: 20px;
 }
+
+
+@media screen and (max-width: 600px) {
+   .div_header_nav{
+    display: none;
+   } 
+
+   .div_presentacion{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+
+   .div_formulario_img{
+    display: none;
+   }
+  }
