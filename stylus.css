@@ -15,12 +15,10 @@ display:flex;
 .div_header_logo{
 text-align: center;
 align-self: center;
-border: 1px solid pink;
 width: 30%;
 }
 
 .div_header_nav{
-border: 1px solid blue;
 width: 70%;
 }
 
@@ -73,8 +71,8 @@ align-self: center;
 
 .imgphoto{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 20rem;
+    height: 20rem;
 }
 
 
@@ -89,9 +87,6 @@ align-self: center;
 .div_sobremi_texto{
    width: 500px;
    height: 150px;
-   border: 1px solid black;
-   display: inline-flex;
-   flex-wrap: wrap;
    align-self: center;
    text-align: justify;
    position: relative;
@@ -99,9 +94,9 @@ align-self: center;
 }
 
 .div_skillyhobbies{
-display: flex;
-flex-direction: column;
-align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .div_skills,.div_hobbies{
@@ -109,17 +104,16 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 1px solid black;
     position: relative;
     left:2%; 
 }
 .skills,.hobbies{
-width: 200px;
-height: 180px;
-background-color: white;
-margin-left: 20px;
-margin-bottom: 15px;
-text-align: center;
+   width: 200px;
+   height: 180px;
+   background-color: white;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   text-align: center;
 
 }
 
@@ -154,25 +148,27 @@ text-align: center;
 
 .div_experiencias{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .div_experiencia_uno{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 70%;
     justify-content: center;
 
 }
-.div_experiencia_uno .div_experiencia_uno_img img{
-width: 90%;
-height: 100%;
-}
 
 .div_experiencia_uno_texto{
-    margin-left: 2%;
-    align-self: center;
+   align-self: center;
+}
+
+.div_experiencia_uno_img img{
+    width: 800px;
+    height: 400px;
 }
 
 .btnrepo{
@@ -193,16 +189,13 @@ height: 100%;
 .div_formulario{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid blue;
+    
     justify-content: center;
     background-color: #EAF2FD;
     
 }
 
-.div_formulario_img, .div_formulario_contacto{ 
-    border: 1px solid black;
-    
-}
+
 
 .div_formulario_img img{
     width: 100%;
@@ -275,8 +268,37 @@ textarea:hover{
     display: flex;
     flex-direction: column-reverse;
    }
+   .div_presentacion_texto,.div_presentacion_img{
+    width: 95%;
+   }
+   .contenido_hobbies_texto{
+    left: auto;
+    justify-content: center;
+   }
+   
+   .div_sobremi{
+    justify-content: center;
+   }
+   .div_sobremi_texto{
+   left: auto;
+    
+   }
+   .div_experiencia_uno_img img{
+    width: 540px;
+   }
 
    .div_formulario_img{
     display: none;
    }
+  
+   .div_formulario_contacto{
+    display: flex;
+    flex-direction: column;
+   }
+
+   input,textarea,button{
+   width: 50%;
+   }
+
+
   }
