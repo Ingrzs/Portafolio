@@ -229,6 +229,7 @@ textarea{
     height: 110px;
     margin-top: 20px;
     outline: none;
+    resize: none;
 }
 
 textarea:hover{
