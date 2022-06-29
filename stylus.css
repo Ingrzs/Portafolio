@@ -125,7 +125,14 @@ align-self: center;
     position: relative;
     top: 50%;
 }
-
+.hobbies i{
+ font-size: 50px;
+ color: #2A7AE4; 
+}
+.hobbies p,i{
+    position: relative;
+    top: 50%;
+}
 
 .div_educacion{
     display: flex;
