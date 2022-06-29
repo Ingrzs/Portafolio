@@ -6,5 +6,4 @@ Web about me
 **Las herramientad utilizadas son:**
 - HTML5
 - CSS3
-- JAVASCRIPT
 
